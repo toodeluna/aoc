@@ -1,2 +1,3 @@
 # Hide diffs for lockfiles
 flake.lock -diff
+Cargo.lock -diff

@@ -4,11 +4,12 @@
 /.vscode
 
 # Cache files
-*/.zig-cache
+.zig-cache
 
 # Output files
 /result
 /result-*
+target
 
 # System files
 .DS_Store
