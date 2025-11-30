@@ -1,0 +1,14 @@
+# Editor files
+/.idea
+/.vs
+/.vscode
+
+# Cache files
+*/.zig-cache
+
+# Output files
+/result
+/result-*
+
+# System files
+.DS_Store
