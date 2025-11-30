@@ -9,6 +9,7 @@
       nixfmt.enable = true;
       ormolu.enable = true;
       rustfmt.enable = true;
+      shellcheck.enable = true;
       zig.enable = true;
     };
   };

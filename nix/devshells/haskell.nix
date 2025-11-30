@@ -2,7 +2,7 @@
   perSystem =
     { pkgs, ... }:
     {
-      devShells.haskell = pkgs.mkShellNoCC {
+      devShells.haskell = pkgs.mkShell {
         packages = [ pkgs.ghc ];
       };
     };

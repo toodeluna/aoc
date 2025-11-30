@@ -2,7 +2,7 @@
   perSystem =
     { pkgs, ... }:
     {
-      devShells.zig = pkgs.mkShellNoCC {
+      devShells.zig = pkgs.mkShell {
         packages = [ pkgs.zig ];
       };
     };
