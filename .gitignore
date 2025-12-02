@@ -11,5 +11,8 @@
 /result-*
 target
 
+# Solution inputs
+/inputs
+
 # System files
 .DS_Store
