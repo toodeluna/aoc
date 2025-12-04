@@ -1,8 +1,11 @@
-[package]
-name = "rust"
-version = "0.1.0"
-edition = "2024"
+[workspace]
+resolver = "3"
+members = ["day01", "day02", "day03"]
 
-[dependencies]
+[workspace.dependencies]
 num = "0.4.3"
 thiserror = "2.0.17"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
