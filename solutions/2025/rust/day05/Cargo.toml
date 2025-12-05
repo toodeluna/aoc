@@ -1,0 +1,7 @@
+[package]
+name = "day05"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+thiserror.workspace = true
